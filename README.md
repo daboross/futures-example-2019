@@ -13,7 +13,7 @@ This uses:
 - [tokio] as an event loop
 - [hyper] for http calls, as an example
 - [futures-0.3 (futures-preview)] with "compat" feature for future-related things
-- [the new `fut.await` syntax]
+- [the new `fut.await` syntax][await-syntax]
 
 The crate is fairly simple, so it should be easy to explore.
 
@@ -26,4 +26,4 @@ Thanks to:
 [tokio]: https://github.com/tokio-rs/tokio
 [hyper]: https://github.com/hyperium/hyper
 [futures-0.3 (futures-preview)]: https://github.com/rust-lang-nursery/futures-rs
-[the `.await` syntax]: https://boats.gitlab.io/blog/post/await-decision/
+[await-syntax]: https://boats.gitlab.io/blog/post/await-decision/
